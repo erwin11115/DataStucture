@@ -38,8 +38,12 @@ void Polynomial::NewTerm(const float theCoeff, const int theExp) {
 }
 
 Polynomial Polynomial::Add(Polynomial b) {
-    
+    Polynomial c;
+    int aPos = 0, bPos = 0;
+    while((aPos < terms)&&(bPos< b.terms)){
 
+        
+    }
 }
 
 void operator<<(ostream& os, Polynomial* p) {
